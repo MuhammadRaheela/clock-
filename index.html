@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* .spiner{
+            background-color: orange;
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            border: 20px solid white;
+            border-top: 20px solid silver ;
+            animation: ani 2.5s linear infinite;
+        }
+        @keyframes ani{
+            to{
+                  transform: rotate(360deg);
+            }
+        } */
+/* 
+        body {
+      background: black;
+      display: grid;
+      place-items: center;
+      height: 95vh;
+      margin: 0;
+    }
+
+    .container {
+      width: 60px;
+      height: 60px;
+      transform-origin: center bottom;
+      animation: flicker 200ms ease-in infinite alternate;
+      position: relative;
+    }
+
+    .flame {
+      bottom: 0;
+      position: absolute;
+      border-bottom-right-radius: 50%;
+      border-bottom-left-radius: 50%;
+      border-top-left-radius: 50%;
+      transform: rotate(-45deg) scale(1.5, 1.5);
+    }
+
+    .yellow {
+      left: 15px;
+      width: 30px;
+      height: 30px;
+      background: gold;
+      box-shadow: 0px 0px 9px 4px gold;
+    }
+
+    .orange {
+      left: 10px;
+      width: 40px;
+      height: 40px;
+      background: orange;
+      box-shadow: 0px 0px 9px 4px orange;
+    }
+
+    .red {
+      left: 5px;
+      width: 50px;
+      height: 50px;
+      background: orangered;
+      box-shadow: 0px 0px 9px 4px orangered;
+    }
+
+    .white {
+      left: 15px;
+      bottom: -4px;
+      width: 30px;
+      height: 30px;
+      background: white;
+      box-shadow: 0px 0px 9px 4px white;
+    }
+
+    .circle {
+      border-radius: 50%;
+      position: absolute;
+    }
+
+    .blue {
+      width: 10px;
+      height: 10px;
+      left: 25px;
+      bottom: -25px;
+      background: slateblue;
+      box-shadow: 0px 0px 15px 10px white;
+    }
+
+    .black {
+      width: 40px;
+      height: 40px;
+      left: 10px;
+      bottom: -60px;
+      background: black;
+      box-shadow: 0px 0px 15px 10px white;
+    }
+
+    @keyframes flicker {
+      0% { transform: rotate(-1deg); }
+      20% { transform: rotate(1deg); }
+      40% { transform: rotate(-1deg); }
+      80% { transform: rotate(1deg) scale(0.92); }
+      100% { transform: rotate(1deg); }
+    } */
+  </style>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <!-- 
+
+    <div class="spiner"></div>
+    <div class="spiner"></div>   
+    <div class="spiner"></div>   
+    <div class="spiner"></div>   
+    <div class="spiner"></div> -->
+
+<!-- 
+    <div class="container">
+        <div class="red flame"></div>
+        <div class="orange flame"></div>
+        <div class="yellow flame"></div>
+        <div class="white flame"></div>
+        <div class="blue circle"></div>
+        <div class="black circle"></div>
+      </div> -->
+
+      <div class="container">
+        <div class="clock">
+          <label style="--i: 1"><span>1</span></label>
+          <label style="--i: 2"><span>2</span></label>
+          <label style="--i: 3"><span>3</span></label>
+          <label style="--i: 4"><span>4</span></label>
+          <label style="--i: 5"><span>5</span></label>
+          <label style="--i: 6"><span>6</span></label>
+          <label style="--i: 7"><span>7</span></label>
+          <label style="--i: 8"><span>8</span></label>
+          <label style="--i: 9"><span>9</span></label>
+          <label style="--i: 10"><span>10</span></label>
+          <label style="--i: 11"><span>11</span></label>
+          <label style="--i: 12"><span>12</span></label>
+          <div class="indicator">
+            <span class="hand hour"></span>
+            <span class="hand minute"></span>
+            <span class="hand second"></span>
+          </div>
+        </div>
+        <div class="mode-switch">Dark Mode</div>
+      </div>
+
+      <script src="app.js"></script>
+</body>
+</html>
